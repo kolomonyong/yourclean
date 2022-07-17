@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(138, 212, 212);
+    
+}
+
+.header .logo {
+    font-size: 35px;
+    float: left;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header .navigation li a:hover {
+    color: black;
+    text-decoration: underline;
+    
+}
